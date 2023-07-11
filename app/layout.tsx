@@ -16,7 +16,7 @@ export const metadata = {
   title: 'Rents Your Home',
   description: 'Rents Your Home',
   icons: {
-    icon: "./favicon.png",
+    icon: "./favicon.ico",
   },
 };
 
@@ -34,7 +34,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel='icon' href='./favicon.png' />
+        <link rel='icon' href='./favicon.ico' />
       </head>
       <body className={font.className}>
         <ClientOnly>
